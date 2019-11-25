@@ -1,0 +1,7 @@
+[@ww.textfield labelKey="ebDeploymentTask.accessKey" name="accessKey" required='true'/]
+[@ww.textfield labelKey="ebDeploymentTask.secretKey" name="secretKey" required='true'/]
+[@ww.textfield labelKey="ebDeploymentTask.region" name="region" required='true'/]
+[@ww.textfield labelKey="ebDeploymentTask.applicationName" name="applicationName" required='true'/]
+[@ww.textfield labelKey="ebDeploymentTask.sourceBundle" name="sourceBundle" required='true'/]
+[@ww.textfield labelKey="ebDeploymentTask.s3Bucket" name="s3Bucket" required='true'/]
+[@ww.textfield labelKey="ebDeploymentTask.versionLabel" name="versionLabel" required='true'/]

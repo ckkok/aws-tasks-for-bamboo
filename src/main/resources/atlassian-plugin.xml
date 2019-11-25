@@ -1,0 +1,27 @@
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
+  <plugin-info>
+    <description>${project.description}</description>
+    <version>${project.version}</version>
+    <vendor name="${project.organization.name}" url="${project.organization.url}" />
+  </plugin-info>
+
+  <resource type="i18n" name="i18n" location="aws.tasks"/>
+
+  <taskType key="s3UploadTask" name="AWS S3 Upload" class="S3UploadTask">
+    <category name="builder"/>
+    <category name="deployment"/>
+    <resource type="download" name="icon" location="icon.png"/>
+    <description>Upload an artifact to AWS S3 bucket</description>
+    <configuration class="S3UploadTaskConfigurator"/>
+    <resource type="freemarker" name="edit" location="editS3UploadTask.ftl"/>
+  </taskType>
+
+  <taskType key="ebDeploymentTask" name="AWS Elastic Beanstalk Deployment" class="ElasticBeanstalkDeploymentTask">
+    <category name="builder"/>
+    <category name="deployment"/>
+    <resource type="download" name="icon" location="icon.png"/>
+    <description>Deploy an artifact from AWS S3 to an AWS Elastic Beanstalk application version</description>
+    <configuration class="ElasticBeanstalkDeploymentTaskConfigurator"/>
+    <resource type="freemarker" name="edit" location="editElasticBeanstalkDeploymentTask.ftl"/>
+  </taskType>
+</atlassian-plugin>

@@ -1,0 +1,6 @@
+[@ww.textfield labelKey="s3UploadTask.accessKey" name="accessKey" required='true'/]
+[@ww.textfield labelKey="s3UploadTask.secretKey" name="secretKey" required='true'/]
+[@ww.textfield labelKey="s3UploadTask.region" name="region" required='true'/]
+[@ww.textfield labelKey="s3UploadTask.s3Bucket" name="s3Bucket" required='true'/]
+[@ww.textfield labelKey="s3UploadTask.file" name="file" required='true'/]
+[@ww.textfield labelKey="s3UploadTask.destinationKey" name="destinationKey"/]
