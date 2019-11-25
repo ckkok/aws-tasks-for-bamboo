@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/marketdata.deployment.iml" filepath="$PROJECT_DIR$/marketdata.deployment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins.aws.iml" filepath="$PROJECT_DIR$/plugins.aws.iml" />
     </modules>
   </component>
 </project>

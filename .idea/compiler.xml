@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="marketdata.deployment" />
+        <module name="plugins.aws" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="marketdata.deployment" target="1.8" />
+      <module name="plugins.aws" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
