@@ -121,6 +121,7 @@
             <Atlassian-Plugin-Key>${atlassian.plugin.key}</Atlassian-Plugin-Key>
             <Export-Package>
               com.example,
+              org.slf4j,
             </Export-Package>
             <Import-Package>
               org.springframework.osgi.*;resolution:="optional",
